@@ -53,3 +53,70 @@ CREATE TABLE pizza_recipes (
         ON DELETE RESTRICT
         ON UPDATE CASCADE
 );
+
+--------------------------------------------------------------------------------------------------
+                                    DATABASE CLEANUP
+--------------------------------------------------------------------------------------------------
+// for customer_orders table
+
+UPDATE customer_orders
+SET exclusions = NULL
+WHERE exclusions IN ('null', '');
+
+UPDATE customer_orders
+SET extras = NULL
+WHERE extras IN ('null', 'NaN', '');
+
+// for runner_orders table
+
+UPDATE runner_orders
+SET pickup_time = NULL
+WHERE pickup_time IN ('null', '');
+
+UPDATE runner_orders
+SET distance = TRIM('km' FROM distance)
+WHERE distance LIKE '%km';
+
+UPDATE runner_orders
+SET distance = NULL
+WHERE distance IN ('null', '');
+
+UPDATE runner_orders
+SET duration = TRIM('minutes' FROM duration)
+WHERE duration LIKE '%minutes';
+
+UPDATE runner_orders
+SET duration = TRIM('minute' FROM duration)
+WHERE duration LIKE '%minute';
+
+UPDATE runner_orders
+SET duration = TRIM('mins' FROM duration)
+WHERE duration LIKE '%mins';
+
+UPDATE runner_orders
+SET duration = NULL
+WHERE duration IN ('null', '');
+
+UPDATE runner_orders
+SET cancellation = NULL
+WHERE cancellation IN ('null', '', 'NaN');
+
+ALTER TABLE runner_orders
+MODIFY COLUMN pickup_time DATETIME,
+MODIFY COLUMN distance FLOAT,
+MODIFY COLUMN duration INT;
+
+// for pizza_names table
+
+ALTER TABLE pizza_names
+MODIFY COLUMN pizza_name VARCHAR(50);
+
+// for pizza_recipes table
+
+ALTER TABLE pizza_recipes
+MODIFY COLUMN toppings VARCHAR(50);
+
+// for pizza_toppings table
+
+ALTER TABLE pizza_toppings
+MODIFY COLUMN topping_name VARCHAR(50);
