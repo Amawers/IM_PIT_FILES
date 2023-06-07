@@ -120,3 +120,48 @@ MODIFY COLUMN toppings VARCHAR(50);
 
 ALTER TABLE pizza_toppings
 MODIFY COLUMN topping_name VARCHAR(50);
+
+--------------------------------------------------------------------------------------------------
+                                    REQUIREMENT QUERIES
+--------------------------------------------------------------------------------------------------
+
+8.Make a report that generates unique customer orders (FINAL).
+
+SELECT COUNT(DISTINCT order_id) as unique_customer_orders
+FROM customer_orders
+
+9. Each time an order is placed by a runner, there is a possibility 
+that some orders are canceled or not successful. You have to create a 
+report that shows the successful orders and another report that shows 
+the canceled orders. For each canceled orders, it is being recorded 
+in an audit tablethat contains the order id, runner id, and time and 
+date of cancellation (DRAFT)
+
+SELECT order_id, runner_id, pickup_time, cancellation
+FROM runner_orders
+WHERE cancellation IS NULL;
+
+CREATE TABLE audit (
+    order_id INT,
+    runner_id INT,
+    cancellation_time VARCHAR(19)
+);
+
+INSERT INTO audit (order_id, runner_id)
+SELECT order_id, runner_id
+FROM runner_orders
+WHERE cancellation IS NOT NULL;
+
+--------------------------------------------------------------------------------------------------
+                                    QUESTIONS
+--------------------------------------------------------------------------------------------------
+
+- need paba e normalized ang mga tables even if dili ga gamiton ang mga values sa pag query?
+
+- sa mga queries okay raba mag gamit ug triggers, functions, or procedures kai sa uban number ge 
+ingon man explicitly nga mag gamit ug functions or procedures
+
+- kami raba mag buot if gusto namo mag add ug tables or columns base sa query kai naay column 
+nga ginarequire sa query pero wala sa pdf
+
+- maka add ba siya anytime ug data sa mga table or fixed lang.
