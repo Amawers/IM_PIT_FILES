@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<runner_orders>
+
+    <runner_order>
+        <order_id>1</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-01 18:15:34</pickup_time>
+        <distance>20km</distance>
+        <duration>32 minutes</duration>
+        <cancellation></cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>2</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-01 19:10:54</pickup_time>
+        <distance>20km</distance>
+        <duration>27 minutes</duration>
+        <cancellation></cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>3</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2021-01-03 00:12:37</pickup_time>
+        <distance>13.4km</distance>
+        <duration>20 mins</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>4</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2021-01-04 13:53:03</pickup_time>
+        <distance>23.4</distance>
+        <duration>40</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>5</order_id>
+        <runner_id>3</runner_id>
+        <pickup_time>2021-01-08 21:10:57</pickup_time>
+        <distance>10</distance>
+        <duration>15</duration>
+        <cancellation>NaN</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>6</order_id>
+        <runner_id>3</runner_id>
+        <pickup_time>null</pickup_time>
+        <distance>null</distance>
+        <duration>null</duration>
+        <cancellation>Restaurant Cancellation</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>7</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2020-01-08 21:30:45</pickup_time>
+        <distance>25km</distance>
+        <duration>25mins</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>8</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>2020-01-10 00:15:02</pickup_time>
+        <distance>23.4km</distance>
+        <duration>15 minute</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
+     <runner_order>
+        <order_id>9</order_id>
+        <runner_id>2</runner_id>
+        <pickup_time>null</pickup_time>
+        <distance>null</distance>
+        <duration>null</duration>
+        <cancellation>Customer Cancellation</cancellation>
+    </runner_order>
+
+    <runner_order>
+        <order_id>10</order_id>
+        <runner_id>1</runner_id>
+        <pickup_time>2020-01-11 18:50:20</pickup_time>
+        <distance>10km</distance>
+        <duration>10minutes</duration>
+        <cancellation>null</cancellation>
+    </runner_order>
+
+</runner_orders>

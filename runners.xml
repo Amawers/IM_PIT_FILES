@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<runners>
+
+	<runner>
+		<runner_id>1</runner_id>
+		<registration_date>2021/01/01</registration_date>
+	</runner>
+
+	<runner>
+		<runner_id>2</runner_id>
+		<registration_date>2021/01/03</registration_date>
+	</runner>
+
+	<runner>
+		<runner_id>3</runner_id>
+		<registration_date>2021/01/08</registration_date>
+	</runner>
+
+	<runner>
+		<runner_id>4</runner_id>
+		<registration_date>2021/01/15</registration_date>
+	</runner>
+
+</runners>

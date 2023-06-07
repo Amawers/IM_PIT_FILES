@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<pizza_toppings>
+
+    <pizza_topping>
+        <topping_id>1</topping_id>
+        <topping_name>Bacon</topping_name>
+    </pizza_topping>
+
+    <pizza_topping>
+        <topping_id>2</topping_id>
+        <topping_name>BBQ Sauce</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>3</topping_id>
+        <topping_name>Beef</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>4</topping_id>
+        <topping_name>Cheese</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>5</topping_id>
+        <topping_name>Chicken</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>6</topping_id>
+        <topping_name>Mushrooms</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>7</topping_id>
+        <topping_name>Onions</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>8</topping_id>
+        <topping_name>Pepperoni</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>9</topping_id>
+        <topping_name>Peppers</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>10</topping_id>
+        <topping_name>Salami</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>11</topping_id>
+        <topping_name>Tomatoes</topping_name>
+    </pizza_topping>
+
+     <pizza_topping>
+        <topping_id>12</topping_id>
+        <topping_name>Tomato Sauce</topping_name>
+    </pizza_topping>
+
+</pizza_toppings>

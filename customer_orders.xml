@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<customer_orders>
+
+    <customer>
+        <order_id>1</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions></exclusions>
+        <extras></extras>
+        <order_time>2021-01-01 18:05:02</order_time>
+    </customer>
+
+    <customer>
+        <order_id>2</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions></exclusions>
+        <extras></extras>
+        <order_time>2021-01-01 19:00:52</order_time>
+    </customer>
+
+    <customer>
+        <order_id>3</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions></exclusions>
+        <extras></extras>
+        <order_time>2021-01-02 23:51:23</order_time>
+    </customer>
+
+    <customer>
+        <order_id>3</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions></exclusions>
+        <extras>NaN</extras>
+        <order_time>2021-01-02 23:51:23</order_time>
+    </customer>
+
+     <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras></extras>
+        <order_time>2021-01-04 13:23:46</order_time>
+    </customer>
+
+    <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras></extras>
+        <order_time>2021-01-04 13:23:46</order_time>
+    </customer>
+
+    <customer>
+        <order_id>4</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>4</exclusions>
+        <extras></extras>
+        <order_time> 2021-01-04 13:23:46</order_time>
+    </customer>
+
+     <customer>
+        <order_id>5</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>1</extras>
+        <order_time> 2021-01-08 21:00:29</order_time>
+    </customer>
+
+    <customer>
+        <order_id>6</order_id>
+        <customer_id>101</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-08 21:03:13</order_time>
+    </customer>
+
+    <customer>
+        <order_id>7</order_id>
+        <customer_id>105</customer_id>
+        <pizza_id>2</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>1</extras>
+        <order_time>2021-01-08 21:20:29</order_time>
+    </customer>
+
+    <customer>
+        <order_id>8</order_id>
+        <customer_id>102</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-09 23:54:33</order_time>
+    </customer>
+
+     <customer>
+        <order_id>9</order_id>
+        <customer_id>103</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>4</exclusions>
+        <extras>1, 5</extras>
+        <order_time>2021-01-10 11:22:59</order_time>
+    </customer>
+
+    <customer>
+        <order_id>10</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>null</exclusions>
+        <extras>null</extras>
+        <order_time>2021-01-11 18:34:49</order_time>
+    </customer>
+
+    <customer>
+        <order_id>10</order_id>
+        <customer_id>104</customer_id>
+        <pizza_id>1</pizza_id>
+        <exclusions>2, 6</exclusions>
+        <extras>1, 4</extras>
+        <order_time>2021-01-11 18:34:49</order_time>
+    </customer>
+
+</customer_orders>
